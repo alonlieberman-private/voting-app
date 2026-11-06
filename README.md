@@ -63,3 +63,7 @@ The voting application only accepts one vote per client browser. It does not reg
 This isn't an example of a properly architected perfectly designed distributed app... it's just a simple
 example of the various types of pieces and languages you might see (queues, persistent data, etc), and how to
 deal with them in Docker at a basic level.
+
+## KAOP demo
+
+This fork runs on GKE (cluster komodor-demo, namespace vote) as the demo environment for the Komodor Agentic Operation Platform: a Grafana Cloud alert on worker restarts opens an incident that the Kubernetes RCA agent investigates, and the Code Reviewer reviews pull requests on this repository.
