@@ -69,3 +69,4 @@ deal with them in Docker at a basic level.
 This fork runs on GKE (cluster komodor-demo, namespace vote) as the demo environment for the Komodor Agentic Operation Platform: a Grafana Cloud alert on worker restarts opens an incident that the Kubernetes RCA agent investigates, and the Code Reviewer reviews pull requests on this repository.
 
 Demo notes: vote and result are exposed as LoadBalancer services on ports 8080 and 8081.
+Backup PR for the KAOP Code Reviewer demo.
