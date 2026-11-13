@@ -19,6 +19,6 @@ spec:
         name: worker
         resources:
           requests:
-            memory: 128Mi
+            memory: 12Mi
           limits:
-            memory: 128Mi
+            memory: 12Mi
