@@ -22,6 +22,6 @@ spec:
           name: vote
         resources:
           requests:
-            memory: 12Mi
+            memory: 256Mi
           limits:
-            memory: 12Mi
+            memory: 256Mi
